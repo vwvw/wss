@@ -260,7 +260,7 @@ while (1) {
 
 	# output
 	printf "%-7.3f; %-7.3f; ", $sleeptime, $durtime if $moretimes;
-	printf "%-7.3f; %10.2f; %10.2f: %10.2f\n", $esttime,
+	printf "%-7.3f; %10.2f; %10.2f; %10.2f\n", $esttime,
 	    $rss , $pss , $referenced ;
 
 	# snopshot sleeps
